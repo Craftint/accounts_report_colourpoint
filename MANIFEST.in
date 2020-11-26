@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include accounts_report_colourpoint *.css
+recursive-include accounts_report_colourpoint *.csv
+recursive-include accounts_report_colourpoint *.html
+recursive-include accounts_report_colourpoint *.ico
+recursive-include accounts_report_colourpoint *.js
+recursive-include accounts_report_colourpoint *.json
+recursive-include accounts_report_colourpoint *.md
+recursive-include accounts_report_colourpoint *.png
+recursive-include accounts_report_colourpoint *.py
+recursive-include accounts_report_colourpoint *.svg
+recursive-include accounts_report_colourpoint *.txt
+recursive-exclude accounts_report_colourpoint *.pyc
